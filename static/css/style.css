@@ -1,0 +1,66 @@
+:root {
+    --primary-1: #0f1720;
+    --primary-2: #0f1b2d;
+    --primary-3: #10243e;
+    --primary-4: #102a4c;
+    --primary-5: #0f3058;
+    --secondary-1: #17151f;
+    --secondary-2: #1c172b;
+    --secondary-3: #251e40;
+    --secondary-4: #2c2250;
+    --secondary-5: #32275f;
+    --secondary-6: #392c72;
+    --secondary-7: #443592;
+    --secondary-8: #5842c3;
+  }
+  
+  body {
+    background-color: var(--primary-1);
+    color: #bbb;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+  }
+  
+  nav {
+    background-color: var(--primary-2);
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #bbb;
+    text-decoration: none;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #bbb;
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin: 0;
+    padding: 0 0 0 20px;
+  }
+  
+  a {
+    color: #5842c3;
+  }
+  
+  .success-message {
+    color: #32cd32;
+  }
+  

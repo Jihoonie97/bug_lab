@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TFT Bug Showcase</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="{{ url_for('index') }}">Home</a></li>
+            <li><a href="{{ url_for('category', name='gameplay') }}">Gameplay</a></li>
+            <li><a href="{{ url_for('category', name='visual') }}">Visual</a></li>
+            <li><a href="{{ url_for('category', name='audio') }}">Audio</a></li>
+            <li><a href="{{ url_for('report') }}">Report Bug</a></li>
+        </ul>
+    </nav>
+
+    <h1>Welcome to TFT Bug Showcase</h1>
+    <p>Browse through different bug categories:</p>
+    <ul>
+        <li><a href="{{ url_for('category', name='gameplay') }}">Gameplay Bugs</a></li>
+        <li><a href="{{ url_for('category', name='visual') }}">Visual Bugs</a></li>
+        <li><a href="{{ url_for('category', name='audio') }}">Audio Bugs</a></li>
+    </ul>
+
+    <h2>Report a Bug</h2>
+    <p>Found a bug? Report it here:</p>
+    <a href="{{ url_for('report') }}">Report Bug</a>
+
+</body>
+</html>
